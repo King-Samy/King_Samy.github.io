@@ -1,0 +1,62 @@
+@media (max-width:1030px){
+    /* HOME CSS */
+    .home .home-banner1,
+    .home .home-banner2{
+        background-position: 65% center;
+        min-height: 550px;
+        }
+    .home .home-banner .home-banner-text{
+        transform: translate(-80%, -50%);
+    }
+}
+/* speciall */
+.special .countdown-conatiner .countdown-counter li{
+    padding: 1.5rem 1rem;
+}
+@media (max-width:991px) {
+    /* HOME CSS */
+    .home .home-banner .home-banner-text{
+        transform: translate(-66%, 50%);
+    }
+}
+/* speciall */
+.special .countdown-conatiner {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+@media(max-width:767px){
+    /* HOME CSS */
+    .home .home-banner1,
+    .home .home-banner2{
+        background-position: 50% center;
+        min-height: 450px;
+    }
+    .home .home-banner .home-banner-text{
+        text-align: center;
+        width:100%;
+        transform: translate(-50%,50%);
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 3rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1.2rem;
+    }
+    .home .home-banner .home-banner-text .btn-danger{
+        padding: 0.5rem 1.5rem;
+    }
+    .home .slider-icon{
+        font-size: 2rem;
+    }
+}
+/* Product css  */
+.products .up_to_content h2{
+    font-size: 0.75rem;
+}
+
+@media(max-width:330px){
+    /* HOME CSS */
+    .home .home-banner .home-banner-text h2{
+        font-size: 1rem;
+    }
+}
